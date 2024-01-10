@@ -1,0 +1,23 @@
+.list-users {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 200px;
+}
+
+.user {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+.user:hover {
+    background-color: rgb(66, 66, 235);
+    color: white;
+}
